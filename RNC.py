@@ -20,11 +20,11 @@ logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m    
 def ud():
     os.system('clear')
     jalan(logo)
-    print(' [1] SUBSCRIBE MY CHANNEL')
+    print(' [1] FOLLOW MY FACEBOOK ACCOUNT')
     print(' [2] EXIT')
     opt = input('\n   Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://youtube.com/channel/UCG8CSxk8KQMZuVfRhCa6FBw')
+        os.system('xdg-open https://www.facebook.com/MH.ABIR.404')
         FD()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -33,11 +33,11 @@ def ud():
 def FD():
     os.system('clear')
     print(logo)
-    print('\x1b[1;33m [1] SUBSCRIBE MY FRIEND CHANNEL')
+    print('\x1b[1;33m [1] FOLLOW MY 2nd ACCOUNT')
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://youtu.be/y837qD_AO6Q')
+        os.system('xdg-open https://www.facebook.com/masud.islam.3572')
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
